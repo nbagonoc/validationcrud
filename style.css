@@ -1,0 +1,26 @@
+body{/*fix fixed-top issude*/
+	padding-top: 50px;
+}
+
+
+.container-fluid{/*fix for padding left and right, for fluid container not being 100%*/
+	padding: 0 !important;
+}
+
+/*MEDIA QUERIES*/
+
+/*extra small*/
+@media(max-width:767px){
+}
+
+/*small*/
+@media(min-width:768px){
+}
+
+/*medium*/
+@media(min-width:992px){
+}
+
+/*large*/
+@media(min-width:1200px){
+}
